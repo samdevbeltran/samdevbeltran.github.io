@@ -1,0 +1,40 @@
+.grid-area{
+    display: grid;
+}
+.dp-header{
+    text-align: center;
+}
+
+.dp-cont-radius-a{
+    border-radius: 9px 9px 9px 9px;
+    padding: 1%;
+    border: 1px solid #6C91C2;
+}
+
+.img-container{
+    text-align: center;
+    margin: auto;
+}
+
+.img-container img{
+    width: 88%;
+    
+}
+.main-container{
+    margin: 2% 2%;
+    
+}
+
+.dp-container{
+    text-align: center;
+    margin: 2% 0 2% 0 !important;
+}
+
+.description-container{
+    text-align: center;
+    padding: 5%;
+
+}
+.description-container h4{
+    margin: 2% 0 2% 0;
+}

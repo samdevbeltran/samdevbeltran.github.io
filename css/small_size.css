@@ -1,0 +1,32 @@
+@media only screen and (min-width:320px){
+    ul li{
+        font-size: 2em;
+    }
+
+    p{
+        font-size: 1.5em;
+        line-height: 128%;
+    }
+    .dp-container {
+        width: 90%;
+        margin: auto;
+        
+    }
+
+    .dp-cont-radius-l{
+        border-radius: 9px 9px 9px 9px;
+        padding: 1%;
+        border: 1px solid #6C91C2;
+    }
+    
+    .dp-cont-radius-r{
+        border-radius: 9px 9px 9px 9px;
+        padding: 1%;
+        border: 1px solid #6C91C2;
+    }
+
+    .img-container {
+        height: auto;
+        width: 62%;
+    }
+}
