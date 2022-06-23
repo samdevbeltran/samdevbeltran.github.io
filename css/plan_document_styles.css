@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oxygen&display=swap');
+
+header{
+    text-align: center;
+    padding: 2%;
+    background-color: #475b5a26;
+    background-image: linear-gradient(#ffffff,#ffffff94,#00000000,#00000024);
+    margin-bottom: 10%;
+}
+
+
+h1,h2,h3,h4{
+    color: #4ebac4;
+    font-family: 'Lato', sans-serif;
+}
+
+p,li{
+    color: #475B5A;
+    font-family: 'Oxygen', sans-serif;
+}
+header h1{
+    color: #52D1DC;
+    font-size: 3em;
+}
+
+header h2{
+    color: #475B5A;
+}
+
+header a{
+    color: #52D1DC;
+    text-decoration: none;
+}
+
+footer{
+    padding: 1% 12%;
+    text-align: center;
+    margin-top: 5%;
+    background-color: #475B5A;
+}
+footer p{
+    color: white;
+}
+.document-plan-container{
+    max-width: 910px;
+    margin: auto;
+}
+
+.document-plan-container nav{
+    margin-bottom: 4%;
+}
+
+ul.topnav, .subnav-content{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+
+  
+  ul.topnav li a,.subnav-content li a {
+    text-decoration: none;
+    display: block;
+    color: #4ebac4;
+    text-align: center;
+    padding: 14px 16px;
+  }
+  
+
+ul.topnav li a:hover:not(.active) {
+    background-color: #4ebac4;
+    color: white;
+}
+  
+ul.topnav li a.active {
+    background-color: #4ebac4;
+    color: white;
+}
+
+.section-container{
+    text-align: center;
+}
+
+hr.solid {
+    border-top: 3px solid #bbb;
+  }
+
+  hr.short {
+    width: 34%;
+  }
+  .container{
+    margin: 3% 0;
+    padding: 5%;
+  }
+
+  .container h3{
+    margin: 7% 0;
+  }
+  .section-container div table{
+    width: 100%;
+  }
+  .section-container div table th,.section-container div table td{
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  .section-container div table th{
+    
+    border: 1px solid #4ebac4;
+    color: #475B5A;
+  }
+
+  .section-container div table td:nth-child(1){
+    background-color: #4ebac4;
+  }
+
+  .section-container div table td:nth-child(2){
+    background-color: #475B5A;
+  }
+
+  .section-container div table td:nth-child(3){
+    background-color: #52D1DC;
+  }
+
+  .border-style{
+    border: 3px solid #bbb;
+  }

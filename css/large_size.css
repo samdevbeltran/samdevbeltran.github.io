@@ -30,6 +30,15 @@
         width: 74%;        
     }
 
-    
-    
+
+    .document-plan-container nav{
+        font-size: 0.5em;
+    }
+
+    .logo_styles{
+        width: 7%;
+    }
+    .logo_styles img{
+        width: 100%;
+    }
 }

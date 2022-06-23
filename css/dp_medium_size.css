@@ -1,0 +1,42 @@
+@media (max-width:1023px){
+    p{
+        font-size: 1.5em;
+        line-height: 140%;
+    }
+    ul.topnav li{
+        float: none;
+    }
+    ul.topnav li:not(.logo_styles,.subnav-content li) {
+        background-color: #52D1DC;
+    }
+    .topnav a{
+        padding: 2%!important;
+        color: white!important;
+    }
+    .logo_styles{
+        width: 18%;
+    }
+    .logo_styles img{
+        width: 49%;
+    }
+
+    .document-plan-container nav{
+        font-size: 1.2em;
+    }
+    .subnav-content{
+        display: none;
+    }
+    .topnav li:hover .subnav-content{
+        display: block;
+        background-color: #475b5abe;
+        color: white;
+    }
+    .purpose-section h3{
+        font-size: 2em;
+    }
+
+    .purpose-section{
+        margin: 11% 0;
+        padding: 2% 8%;
+    }
+}
