@@ -1,0 +1,35 @@
+@media only screen and (min-width:48em){
+    header{
+        justify-content: center;
+        padding: 0;
+        padding: 2% 0;
+    }
+    header:nth-child(1) h1{
+        font-size: 2.3em;
+    }
+    .logo{
+        width: 8%;
+    }
+    #topNav{
+        padding: 0;
+    }
+
+    #topNav,#topNav ul{
+        background-color: transparent;
+    }
+    #primaryNav{
+        display: flex;
+        justify-content: right;
+    }
+
+    #topNav ul li a{
+        padding: 0.75rem;
+    }
+    #hamburgerBtn{
+        display: none;
+    }
+
+    #primaryNav li a:hover {
+        background-color: #52D1DC;
+    }
+}

@@ -111,18 +111,21 @@ hr.solid {
     color: #475B5A;
   }
 
-  .section-container div table td:nth-child(1){
+  .primary{
     background-color: #4ebac4;
   }
 
-  .section-container div table td:nth-child(2){
-    background-color: #475B5A;
+  .secondary{
+    background-color: #fabd00;
   }
 
-  .section-container div table td:nth-child(3){
+  .accent1{
     background-color: #52D1DC;
   }
 
+  .accent2{
+    background-color: #475B5A;
+  }
   .border-style{
     border: 3px solid #bbb;
   }

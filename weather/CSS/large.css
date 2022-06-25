@@ -1,0 +1,23 @@
+@media (min-width:1024px){
+    header{
+        padding: 0;
+        padding-top: 2%;
+    }
+    header:nth-child(1) h1 {
+        font-size: 3.3em;
+    }
+    header:nth-child(1) h3 {
+        font-size: 1.1em;
+    }
+    #topNav ul li a {
+        font-size: 1.2em;
+    }
+    h2{
+        font-size: 2em;
+    }
+
+    main{
+        font-size: 1.3em;
+    }
+    
+}
