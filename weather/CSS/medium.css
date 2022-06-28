@@ -33,4 +33,66 @@
     #primaryNav li a:hover {
         background-color: #52D1DC;
     }
+
+    .container {
+        margin: 3% 0;
+    }
+    .hero-container{
+        position: relative;
+    }
+
+    .img-small-h{
+        height: auto;
+    }
+
+    .weather-summary{
+        position: absolute;
+        bottom: 30px;
+        left: 20px;
+        background-color: #fabd00b8;
+    }
+
+    .weather-summary h3{
+        color:#52D1DC;
+    }
+
+    .article-container {
+        padding: 6% 15%;
+    }
+
+    .article-container h3{
+        margin: 5% 0;
+    }
+
+    .img-small-h-2 {
+        height: auto;
+    }
+
+    .article-pic-container{
+        width: 70%;
+        margin: auto;
+    }
+
+    .contact-section{
+        display: flex;
+        padding: 3%;
+        justify-content: center;
+    }
+    .contact-section p{
+        font-size: .9em;
+    }
+
+    .social-media li img {
+        width: 31px;
+        height: 31px;
+    }
+
+    .google-map{
+        width: 40%;
+    }
+
+    .contact-section div,.contact-section ul{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
 }

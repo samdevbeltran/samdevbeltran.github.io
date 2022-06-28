@@ -17,7 +17,7 @@ main{
     max-width: 900px;
     margin: auto;
     text-align: center;
-    padding: 2%;
+    padding: 0 2%;
 }
 
 footer{
@@ -26,7 +26,7 @@ footer{
     padding: 2% 3%;
     
 }
-footer p,span{
+footer p,footer span{
     color: white;
 }
 nav ul{
@@ -68,6 +68,9 @@ header:nth-child(1) h3{
 .logo img{
     width: 100%;
 }
+.image{
+    width: 100%;
+}
 nav button{
     border: none;
     margin: .2rem 2vw;
@@ -106,14 +109,6 @@ nav button{
     display: block!important;
 }
 
-/******* temporal *********/
-main div{
-    margin: 1%;
-    padding: 1%;
-    background-color: #475b5a9e;
-    color: white;
-}
-/*************************/
 .active{
     background-color: #4ebac4;
 }
@@ -121,6 +116,82 @@ main div{
     color: white!important;
 }
 
-.bla{
+.img-small-h{
+    height: 140px;
+}
+
+.img-small-h-2{
+    height: 180px;
+}
+.weather-summary{
+    background: #fabd00;
+    padding: 4%;
+}
+
+.weather-summary h3{
+    text-decoration: underline;
+}
+.weather-summary p {
+    margin: 0;
+}
+.weather-summary p span{
+    color:white;
+}
+
+.hidden {
+    display: none;
+}
+
+.article-container{
+    padding: 6%;
+}
+
+.article-container p{
+    line-height: 24px;
+}
+.container{
+    margin:5% 0;
+}
+
+main{
     display: flex;
+    flex-direction: column;
+}
+
+.social-media{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0;
+}
+.social-media li{
+    width: 40px;
+    height: 40px;
+}
+
+.social-media li img{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.contact-section{
+    text-align:left;
+    padding: 6%;
+    background-color: #4ebac44f;
+    margin-bottom: 0;
+}
+.contact-section picture img{
+    width: 100%;
+}
+.contact-section div p{
+    margin:0;
+}
+
+.contact-section li{
+    margin: 0 2%;
+}
+
+.google-map{
+    border: 1px solid #4ebac4;
 }
