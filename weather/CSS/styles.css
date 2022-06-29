@@ -195,3 +195,47 @@ main{
 .google-map{
     border: 1px solid #4ebac4;
 }
+
+.float-image{
+    display: none;
+}
+
+.forecast{
+    display: none;
+    padding: 0 15%;
+}
+.forecast div{
+    width: 20%;
+    border: 1px solid #fabd00;
+    margin: 0.3%;
+    height: 130px;
+}
+
+.forecast div h5{
+    margin: 0;
+    margin-bottom: 9%;
+    padding: 11% 0;
+    background-color: #fabd00;
+    color: white;
+}
+
+.forecast div span{
+    color: #4ebac4;
+}
+.forecast div p{
+    margin: 0;
+    font-size: 1.1rem;
+
+}
+
+.fri-banner{
+    background-color: #fabd00;
+    margin: 0%;
+    padding: 1%;
+    text-align: center;
+
+}
+
+.fri-banner p{
+    color: white;
+}
