@@ -238,4 +238,10 @@ main{
 
 .fri-banner p{
     color: white;
+    
+}
+
+picture.hero-img{
+    display: block;
+    width: 100%;
 }

@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="CSS/medium.css">
     <link rel="stylesheet" href="CSS/large.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <title>Preston Idaho</title>
 </head>
 <body>
@@ -18,7 +17,12 @@
     </div>
     <header>
         <div class="logo">
-            <img src="images/logo.png" alt="logo_picture">
+            <picture>
+                <source media="(max-width:767px)" srcset="images/logo-170.png">
+                <source media="(max-width:1023px)" srcset="images/logo-256.png">
+                <img src="images/logo-512.png" alt="logo_picture">
+            </picture>
+            
         </div>
         <div>
             <h1>CoolWeather</h1>
@@ -40,17 +44,19 @@
     <main>
         <h2>Preston Idaho</h2>
         <div class="hero-container container">
-            <picture>
-                <img class="image img-small-h" src="images/pexels-clayton-bunn-9472119.jpg" alt="clyton picture">
+            <picture class="hero-img">
+                <source media="(max-width: 400px)" srcset="images/franklinOriginal400.jpeg">
+                <source media="(max-width: 770px)" srcset="images/franklinOriginal770.jpeg">
+                <img class="image" src="images/franklinOriginal1030.jpeg" alt="clyton picture">
             </picture>
             <div class="weather-summary">
                 <h3>Weather Summary</h3>
                 <p>
                     Currently: <span>Sunny</span><br>
-                    High: <span>76 °F</span> <br>
-                    Wind Chill: <span>°F</span><br>
+                    High: <span id="high_temp">76</span><span>°F</span> <br>
+                    Wind Chill: <span id="wind_chill"></span><span>°F</span><br>
                     Humidity: <span>69%</span><br>
-                    Wind Speed: <span>5 mph</span><br>
+                    Wind Speed: <span id="wind_speed">5</span><span>mph</span><br>
                 </p>
             </div>
         </div>
@@ -89,7 +95,10 @@
                 <p><img class="float-image" src="images/pexels-helena-lopes-745045.jpg" alt="helena lopes picture"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam deserunt ipsa voluptas, a, accusamus voluptatum officiis, culpa eaque dignissimos ad magni autem dolor error rem aut voluptate saepe perspiciatis in. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores totam sit consectetur architecto, temporibus repudiandae doloremque numquam minus praesentium reiciendis amet cumque rem saepe veritatis, soluta itaque. Libero, quasi nemo!</p>
                 <div class="article-pic-container">
                     <picture>
-                        <img class="image img-small-h-2" src="images/pexels-helena-lopes-745045.jpg" alt="helena lopes picture">
+                        <source media="(max-width:767px)" srcset="images/pexels-helena-lopes-770.jpg">
+                        <source media="(max-width:1023px)" srcset="images/pexels-helena-lopes-1030.jpg">
+                        <source media="(min-width:1024px)" srcset="images/pexels-helena-lopes-330.jpg">
+                        <img class="image" src="images/pexels-helena-lopes-745045.jpg" alt="helena lopes picture">
                     </picture>
                 </div>
             </div>
@@ -102,7 +111,8 @@
             </div>
             <div class="google-map">
                 <picture>
-                    <img src="images/map-google.jpg" alt="google map picture">
+                    <source media="(max-width:767px)" srcset="images/map-google-400.jpg">
+                    <img src="images/map-google-600.jpg" alt="google map picture">
                 </picture>
             </div>
             
@@ -118,5 +128,6 @@
         <span></span>
     </footer>
     <script src="js/main.js"></script>
+    <script src="js/windchill.js"></script>
 </body>
 </html>
