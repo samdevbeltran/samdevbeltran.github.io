@@ -1,0 +1,16 @@
+picture img[data-src] {
+    filter: blur(0.2em);
+}
+  
+picture img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    margin: auto;
+    text-align: center;
+}  

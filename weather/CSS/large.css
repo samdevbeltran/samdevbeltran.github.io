@@ -51,34 +51,6 @@
         margin-right: 2%;
     }
 
-    /* .forcast{
-        display: flex;
-        padding: 0 15%;
-    }
-    .forcast div{
-        width: 20%;
-        border: 1px solid #fabd00;
-        margin: 0.3%;
-        height: 130px;
-    }
-
-    .forcast div h5{
-        margin: 0;
-        margin-bottom: 9%;
-        padding: 11% 0;
-        background-color: #fabd00;
-        color: white;
-    }
-
-    .forcast div span{
-        color: #4ebac4;
-    }
-    .forcast div p{
-        margin: 0;
-        font-size: 1.1rem;
-
-    } */
-
     .forecast{
         display: flex;
     }
