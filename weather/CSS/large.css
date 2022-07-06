@@ -54,5 +54,11 @@
     .forecast{
         display: flex;
     }
+    .gallery-container{
+        padding: 2% 0;
+    }
     
+    .gallery-container div{
+        flex:29%;
+    }
 }

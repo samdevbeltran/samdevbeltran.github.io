@@ -1,5 +1,4 @@
 const images = document.querySelectorAll("[data-src]");
-//console.log(images[0].getAttribute("data-src"))
 
 function preLoadImg(img){
     let src = img.getAttribute("data-src")

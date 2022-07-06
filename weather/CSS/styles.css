@@ -245,3 +245,21 @@ picture.hero-img{
     display: block;
     width: 100%;
 }
+
+.gallery-container{
+    display: flex;
+    flex-direction: column;
+}
+.gallery-container div{
+    width: 100%;
+    margin: 2%;
+}
+
+/* .gallery-container div picture img[data-src]{
+    filter: blur(0.2em);
+} */
+
+.gallery-container div picture img{
+    filter: blur(0.2em);
+    transition: filter 10s;
+}

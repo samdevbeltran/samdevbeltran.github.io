@@ -99,4 +99,14 @@
     .forecast{
         display: flex;
     }
+
+    .gallery-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 2% 10%;
+    }
+    .gallery-container div{
+        flex:45%;
+        
+    }
 }
