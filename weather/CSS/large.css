@@ -61,4 +61,8 @@
     .gallery-container div{
         flex:29%;
     }
+
+    .gallery-container div p{
+        display: block;
+    }
 }

@@ -253,13 +253,22 @@ picture.hero-img{
 .gallery-container div{
     width: 100%;
     margin: 2%;
+    
 }
 
-/* .gallery-container div picture img[data-src]{
+.gallery-container div picture img[data-src]{
     filter: blur(0.2em);
-} */
-
+}
 .gallery-container div picture img{
-    filter: blur(0.2em);
-    transition: filter 10s;
+    filter: blur(0em);
+    transition: filter 0.5s;
 }
+
+.gallery-container div picture img:hover{
+    box-shadow: 5px 10px #fabd00;
+}
+
+.gallery-container div p{
+    display: none;
+}
+
