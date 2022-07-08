@@ -110,5 +110,26 @@
         
     }
 
+    .form form{
+        padding: 0 13%;
+    }
+
+    label.form-input{
+        max-width: 20rem;
+        font-size: 1rem;
+    }
+    label.form-input-sbs{
+        font-size: 1rem;
+    }
+
+    .submitBtn{
+        max-width: 20rem;
+    }
+
     
+
+    .thanksMessage a{
+        width: 50%;
+        margin: auto;
+    }
 }

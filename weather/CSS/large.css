@@ -65,4 +65,30 @@
     .gallery-container div p{
         display: block;
     }
+
+    .form form{
+        padding: 0 9%;
+    }
+
+    label.form-input{
+        max-width: 20rem;
+        font-size: 1rem;
+    }
+
+    label.form-input-sbs{
+        font-size: 1rem;
+    }
+
+
+    .thanksMessage a{
+        width: 50%;
+        margin: auto;
+    }
+
+    .thanksMessage a:hover{
+        border: solid 2px #4ebac4;
+
+        background-color: #4ebac4;
+        color: white;
+    }
 }
