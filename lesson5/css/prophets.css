@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+header h1{
+    text-align: center;
+    color: #ff8a07;
+}
+section{
+    display: block;
+    padding: 9%;
+    border: 2px solid black;
+    margin: auto;
+    width: 85%;
+    background-color: #ffc1074d;
+    text-align: center;
+    border: 1px solid #ffc10787;
+    
+}
+
+section h2{
+    color: #ffc107;
+}
+section p{
+    color: #000000d6;
+}
+section img{
+    width: 100%;
+    border: 2px solid #ffc10787;
+
+}
+/*mediun size**/
+@media screen and (min-width:767px){
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    section{
+
+        width: 100%;
+    }   
+
+    section img{
+        height: 370px;
+    }
+    
+}
+
+@media screen and (min-width:1024px){
+    .cards{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    section{
+
+        width: 100%;
+    }   
+
+    section img {
+        height: 346px;
+    }
+    
+}
