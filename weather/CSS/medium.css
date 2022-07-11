@@ -132,4 +132,26 @@
         width: 50%;
         margin: auto;
     }
+
+    div.towns-container section{
+        display: flex;
+        gap: 12px;
+        padding: 0;
+        
+    }
+
+    div.towns-container section div{
+        padding: 4%;
+        width: 35%;
+    
+    }
+
+    div.towns-container section:nth-child(odd){
+        flex-direction: row-reverse;
+    }
+    
+    div.towns-container section picture{
+        margin: auto;
+    }
+    
 }

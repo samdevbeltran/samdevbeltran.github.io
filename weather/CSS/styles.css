@@ -3,7 +3,7 @@ html{
     box-sizing: border-box;
 }
 
-h1,h2,h3,h4{
+h1,h2,h3,h4,h5{
     color: #4ebac4;
     font-family: 'Lato', sans-serif;
 }
@@ -363,4 +363,41 @@ label.form-input-sbs input{
     font-family: 'Lato', sans-serif;
     font-size: 1.3rem;
     font-weight: 700;
+}
+
+div.towns-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+div.towns-container section{
+    border: 1px solid #475b5a;
+    margin: 2% 2%;
+    padding: 2%;
+    border-radius: 4px;
+    display: block;
+}
+
+div.towns-container section div{
+    padding: 4% 15%;
+    background-color: #fac60040;
+}
+
+div.towns-container section div p{
+    margin: 2%;
+}
+
+div.towns-container section picture img{
+    width: 100%;
+    opacity: 75%;
+}
+
+div.towns-container section picture img[data-src]{
+    height: 192px;
+    filter: blur(0.2em);
+}
+div.towns-container section picture img{
+    filter: blur(0em);
+    transition: filter 0.5s;
 }

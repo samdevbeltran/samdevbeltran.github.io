@@ -91,4 +91,39 @@
         background-color: #4ebac4;
         color: white;
     }
+
+    div.towns-container section h5{
+        margin: 7% 0px;
+    }
+
+    div.towns-container{
+        flex-direction: row;
+        
+    }
+    
+    div.towns-container section{
+        display: block;
+        padding: 1%;
+        margin: 1%;
+        
+    }
+
+    div.towns-container section:hover{
+        border: 2px solid #fac6009e;
+    }
+    
+    
+    div.towns-container section div{
+        width: auto;
+        height: 201px;
+
+    }
+
+    div.towns-container section div p{
+        font-size: .8em;
+    }
+    
+    div.towns-container section picture img:hover{
+        opacity: unset;
+    }
 }
