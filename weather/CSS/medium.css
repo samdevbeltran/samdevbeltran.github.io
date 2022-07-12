@@ -137,7 +137,7 @@
         display: flex;
         gap: 12px;
         padding: 0;
-        
+
     }
 
     div.towns-container section div{
@@ -153,5 +153,14 @@
     div.towns-container section picture{
         margin: auto;
     }
-    
+    div.towns-container section picture img:hover{
+        opacity: unset;
+    }
+
+    .wireframe-container picture img{
+        width: 59%;
+        margin: auto;
+       
+    }
+        
 }

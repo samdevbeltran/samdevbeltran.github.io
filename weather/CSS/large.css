@@ -126,4 +126,8 @@
     div.towns-container section picture img:hover{
         opacity: unset;
     }
+
+   /*  .wireframe-container{
+        height: 2190px;
+    } */
 }

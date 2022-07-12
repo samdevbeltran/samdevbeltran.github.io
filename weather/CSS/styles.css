@@ -401,3 +401,25 @@ div.towns-container section picture img{
     filter: blur(0em);
     transition: filter 0.5s;
 }
+
+.wireframe-container{
+    width: 100%;
+    
+}
+
+.wireframe-container picture img{
+    width: 100%;
+    border: 1px solid black;
+    
+}
+/* .wireframe-container{
+    margin-top: 5%;
+}
+.wireframe-container object{
+    height: 2205px;
+    width: 100%;
+
+}
+.wireframe-container object{
+    transform: scale(.7);
+} */
