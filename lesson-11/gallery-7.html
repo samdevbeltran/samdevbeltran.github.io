@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/medium.css">
+    <link rel="stylesheet" href="CSS/large.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Weather | Gallery</title>
+</head>
+<body>
+    <div class="fri-banner hidden">
+        <p>Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+    </div>
+    <header>
+        <div class="logo">
+            <picture>
+                <source media="(max-width:767px)" srcset="images/logo-170.png">
+                <source media="(max-width:1023px)" srcset="images/logo-256.png">
+                <img src="images/logo-512.png" alt="logo_picture">
+            </picture>
+            
+        </div>
+        <div>
+            <h1>CoolWeather</h1>
+            <h3>Come and be aware of sunny days</h3>
+        </div>
+        
+    </header>
+    <nav id="topNav">
+        <button id="hamburgerBtn"><span>&#9776</span></button>
+        <ul id="primaryNav">
+            <li><a href="lesson5/index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li class="active"><a href="gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Gallery</h2>
+        <div class="gallery-container container">
+            <div>
+                <picture>
+                    <img src="images/placeholder.png" alt="" data-src="images/rain1.png">
+                </picture>
+                <p>On rainy days do not forget to take your umbrella</p>
+            </div>
+            <div>
+                <picture>
+                    <img src="images/placeholder.png" alt="" data-src="images/rain2.jpg">
+                </picture>
+                <p>Drive carefully when the road is wet</p>
+            </div>
+            <div>
+                <picture>
+                    <img src="images/placeholder.png" alt="" data-src="images/sunny1.jpg">
+                </picture>
+                <p>The weather is perfect to enjoy a beautiful sunset</p>
+            </div>
+
+            <div>
+                <picture>
+                    <img src="images/placeholder.png" alt="" data-src="images/sunny2.jpg">
+                </picture>
+                <p>Sun and beach is the best combination to have an extraordinary day!</p>
+            </div>
+            <div>
+                <picture>
+                    <img src="images/placeholder.png" alt="" data-src="images/sunny3.jpg">
+                </picture>
+                <p>A sunny day is perfect for camping</p>
+            </div>
+            <div>
+                <picture>
+                    <img src="images/placeholder.png" alt="" data-src="images/sunny4.jpg">
+                </picture>
+                <p>Summer is perfect for traveling</p>
+            </div>
+
+            <div>
+                <picture>
+                    <img src="images/placeholder.png" alt="" data-src="images/snow1.jpg">
+                </picture>
+                <p>Wrap up well enjoy the snow</p>
+            </div>
+            <div>
+                <picture>
+                    <img src="images/placeholder.png" alt="" data-src="images/snow2.jpg">
+                </picture>
+                <p>A snow fight is a great plan to share with family and friends</p>
+            </div>
+            <div>
+                <picture>
+                    <img src="images/placeholder.png" alt="" data-src="images/spring.jpg">
+                </picture>
+                <p>Nature also enjoys sunny days</p>
+            </div>
+        </div>
+        <div class="container contact-section">
+            <div class="container">
+                <h3>Contact Information</h3>
+                <p><span class="material-symbols-outlined">call</span>31666756033</p>
+                <p><span class="material-symbols-outlined">mail</span>coolweather@cweather.com</p>
+            </div>
+            <div class="google-map">
+                <picture>
+                    <source media="(max-width:767px)" srcset="images/map-google-400.jpg">
+                    <img src="images/map-google-600.jpg" alt="google map picture">
+                </picture>
+            </div>
+            
+            <ul class="social-media">
+                <li><a href="#"><img src="images/facebook.jpeg" alt="facebook logo"></a></li>
+                <li><a href="#"><img src="images/instagram.jpeg" alt="facebook logo"></a></li>
+                <li><a href="#"><img src="images/youtube.png" alt="facebook logo"></a></li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <p>&#169 CoolWeather | Attributions | Samuel Beltran</p>
+        <span></span>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/lazyload.js"></script>
+</body>
+</html>

@@ -1,0 +1,166 @@
+@media only screen and (min-width:48em){
+    header{
+        justify-content: center;
+        padding: 0;
+        padding: 2% 0;
+    }
+    #primaryNav{
+        display: flex!important;
+        justify-content: flex-end;
+    }
+    header:nth-child(1) h1{
+        font-size: 2.3em;
+    }
+    .logo{
+        width: 8%;
+    }
+    #topNav{
+        padding: 0;
+    }
+
+    #topNav,#topNav ul{
+        background-color: transparent;
+    }
+    
+
+    #topNav ul li a{
+        padding: 0.75rem;
+    }
+    #hamburgerBtn{
+        display: none;
+    }
+
+    #primaryNav li a:hover {
+        background-color: #52D1DC;
+    }
+
+    .container {
+        margin: 3% 0;
+    }
+    .hero-container{
+        position: relative;
+    }
+
+    .img-small-h{
+        height: auto;
+    }
+
+    .weather-summary{
+        position: absolute;
+        bottom: 30px;
+        left: 20px;
+        background-color: #fabd00b8;
+    }
+    
+    .weather-summary h3{
+        color:#52D1DC;
+    }
+
+    .article-container {
+        padding: 6% 15%;
+    }
+
+    .article-container h3{
+        margin: 5% 0;
+    }
+
+    .img-small-h-2 {
+        height: auto;
+    }
+
+    .article-pic-container{
+        width: 70%;
+        margin: auto;
+    }
+
+    .contact-section{
+        display: flex;
+        padding: 3%;
+        justify-content: center;
+    }
+    .contact-section p{
+        font-size: .9em;
+    }
+
+    .social-media li img {
+        width: 31px;
+        height: 31px;
+    }
+
+    .google-map{
+        width: 40%;
+    }
+
+    .contact-section div,.contact-section ul{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .forecast{
+        display: flex;
+    }
+
+    .gallery-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 2% 10%;
+    }
+    .gallery-container div{
+        flex:45%;
+        
+    }
+
+    .form form{
+        padding: 0 13%;
+    }
+
+    label.form-input{
+        max-width: 20rem;
+        font-size: 1rem;
+    }
+    label.form-input-sbs{
+        font-size: 1rem;
+    }
+
+    .submitBtn{
+        max-width: 20rem;
+    }
+
+    
+
+    .thanksMessage a{
+        width: 50%;
+        margin: auto;
+    }
+
+    div.towns-container section{
+        display: flex;
+        gap: 12px;
+        padding: 0;
+
+    }
+
+    div.towns-container section div{
+        padding: 4%;
+        width: 35%;
+    
+    }
+
+    div.towns-container section:nth-child(odd){
+        flex-direction: row-reverse;
+    }
+    
+    div.towns-container section picture{
+        margin: auto;
+    }
+    div.towns-container section picture img:hover{
+        opacity: unset;
+    }
+
+    .wireframe-container picture img{
+        width: 59%;
+        margin: auto;
+       
+    }
+        
+}
