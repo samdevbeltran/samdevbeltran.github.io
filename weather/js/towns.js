@@ -1,5 +1,4 @@
 if(document.URL.includes("samdevbeltran.github.io/weather/lesson5/index.html")){
-
     const url = "https://byui-cit230.github.io/weather/data/towndata.json"
 
     fetch(url).then(function(response){
