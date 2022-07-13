@@ -1,4 +1,4 @@
-const forecastApiUrl = "http://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=c009b8a7673094dcc5e97c71bb8342e8"
+const forecastApiUrl = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=c009b8a7673094dcc5e97c71bb8342e8"
 const weatherApiUrl = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=c009b8a7673094dcc5e97c71bb8342e8"
 var date = new Date
 var nameDays = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
