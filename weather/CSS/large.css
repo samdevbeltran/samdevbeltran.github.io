@@ -22,6 +22,8 @@
     .weather-summary{
         top: 115px;
         height: 106px;
+        bottom: 113px;
+        padding: 4%;
     }
     .weather-summary h3,.weather-summary p{
         font-size: 1rem;
@@ -127,7 +129,15 @@
         opacity: unset;
     }
 
-   /*  .wireframe-container{
-        height: 2190px;
-    } */
+    .upcoming-events{
+        bottom: 30px;
+        
+    }
+    .upcoming-events h3{
+        font-size: 1rem;
+    }
+
+    .upcoming-events p{
+        font-size: .9rem;
+    }
 }

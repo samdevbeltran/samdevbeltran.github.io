@@ -46,10 +46,12 @@
     }
 
     .weather-summary{
+        padding: 2% 4%;
         position: absolute;
-        bottom: 30px;
+        bottom: 142px;
         left: 20px;
         background-color: #fabd00b8;
+        border-radius: 8px 0 0 0;
     }
     
     .weather-summary h3{
@@ -162,5 +164,18 @@
         margin: auto;
        
     }
-        
+    
+    .upcoming-events{
+        position: absolute;
+        bottom: 16px;
+        left: 20px;
+        background: #2fbec6d1;
+        padding: 2%;
+        border-radius: 0 0 0 8px;
+    }
+    
+    .upcoming-events h3{
+        color:white;
+        margin-bottom: 6px;
+    }
 }

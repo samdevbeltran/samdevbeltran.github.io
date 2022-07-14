@@ -412,14 +412,21 @@ div.towns-container section picture img{
     border: 1px solid black;
     
 }
-/* .wireframe-container{
-    margin-top: 5%;
-}
-.wireframe-container object{
-    height: 2205px;
-    width: 100%;
 
+.upcoming-events{
+    background: #2fbec678;
+    padding: 6%;
+    height: auto;
 }
-.wireframe-container object{
-    transform: scale(.7);
-} */
+
+.upcoming-events h3{
+    margin-bottom: 1%;
+    text-decoration: underline;
+    color:white;
+}
+.upcoming-events p {
+    margin: 0;
+}
+.upcoming-events p span{
+    color:#475B5A;
+}
